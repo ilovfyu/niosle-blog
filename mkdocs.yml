@@ -1,0 +1,57 @@
+site_name: "niosle-ilovfyu"
+site_url: http://localhost:8088/mysite
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue grey
+    accent: light green
+
+  features:
+    - navigation.expand
+    - navigation.sections
+
+extra:
+  alternate:
+    - name: English
+    - name: 简体中文
+      lang: zh
+
+
+
+
+
+
+extra_css:
+  - stylesheets/extra.css
+
+
+## 目录
+nav:
+  - 基本信息: index.md
+#  - Go:
+#    - 数据结构:
+#        - hello: go/datastruct/数据一致性.md
+#        - index: go/datastruct/index.md
+#    - 服务端:
+#    - 语法基础:
+
+#  - 大数据:
+#
+#
+#  - Python:
+#
+#
+#  - 深度学习:
+
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+
+plugins:
+  - glightbox
