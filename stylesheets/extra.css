@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "LXGWWenKai";
+  src: url('../fonts/LXGWWenKaiGBScreen.ttf') format('ttf');
+}
+
+body {
+  font-family: 'LXGWWenKai', sans-serif;
+}
